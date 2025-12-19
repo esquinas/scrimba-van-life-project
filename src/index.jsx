@@ -8,7 +8,7 @@ import VanDetail from "./pages/VanDetail"
 
 import "./server"
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <header>
