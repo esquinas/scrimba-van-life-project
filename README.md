@@ -22,23 +22,14 @@ npm run lint
 
 ## Deploy
 
-This project is hosted in [Github.io_](https://esquinas.github.io/scrimba-assembly-endgame/) (GitHub Pages),
-to deploy changes to the code, you just have to push to the `main` branch:
+This project is hosted in [Github.io Pages](https://esquinas.github.io/scrimba-van-life-project/) (GitHub Pages),
+to deploy changes to the code, you just have to push to the `master` branch:
+
 ```
-git pull origin main && git push origin main
+git pull origin master && git push origin master
 ```
 
 GitHub Actions described in `.github/workflows/static.yml` will run and production code will be automatically updated.
-
-
-## Screenshot
-
-<img width="1982" height="1494" alt="image" src="https://github.com/user-attachments/assets/3f608e33-ebe4-4577-a745-199357036846" />
-
-## ToDo
-
-- [x] Extract game components, reduce lines of code in `App.jsx`.
-- [x] Organize codebase better into conventional folders: i.e. `src/`
 
 ## About Scrimba
 
