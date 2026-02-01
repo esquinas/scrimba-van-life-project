@@ -1,3 +1,6 @@
+:root {
+  --bg-color: 255, 247, 237;
+}
 * {
     box-sizing: border-box;
 }
@@ -5,7 +8,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #FFF7ED;
+    background-color: rgba(var(--bg-color), 1);
     font-family: "Inter", sans-serif;
 }
 
@@ -18,11 +21,21 @@ body {
   scrollbar-width: none;
 }
 
+.site-wrapper {
+    position: relative; /* Anchor for the footer */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
+    position: sticky;
+    top: 0;
     height: 110px;
     display: flex;
     align-items: center;
     padding-block: 10px;
+    background:  linear-gradient(180deg,rgba(var(--bg-color), 1) 0%, rgba(var(--bg-color), 0.97) 55%,rgba(var(--bg-color), 0.76) 70%, rgba(var(--bg-color), 0) 100%);
 }
 
 header .site-logo {
@@ -43,6 +56,23 @@ header a {
 header a:hover {
     color: #161616;
     text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    background-color: #161616;
+    color: #AAAAAA;
+    height: 74px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500;
+ 
 }
 
 .link-button {
