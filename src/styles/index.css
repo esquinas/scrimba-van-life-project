@@ -325,3 +325,9 @@ i[class*='van-type-'] {
     font-weight: 600;
 }
 
+
+a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #161616;
+}
