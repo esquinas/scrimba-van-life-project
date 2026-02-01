@@ -13,10 +13,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "miragejs": "0.1.46",
+    "miragejs": "^0.1.48",
     "react": "^19.0",
     "react-dom": "^19.0",
-    "react-router-dom": "6.4.3",
+    "react-router-dom": "^6.30.3",
     "vite": "latest"
   },
   "devDependencies": {
